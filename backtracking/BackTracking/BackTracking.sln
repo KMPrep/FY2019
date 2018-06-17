@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackTracking", "BackTracking.csproj", "{3FB747DC-487B-425F-87C7-A68B7A97176A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "..\LinkedList\LinkedList.csproj", "{0321CFD9-D914-4D9F-AAFC-BC2C04C3A363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListLib", "LinkedListLib\LinkedListLib.csproj", "{F6F4DE4C-DE96-4F39-A4A2-111F1737282F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3FB747DC-487B-425F-87C7-A68B7A97176A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FB747DC-487B-425F-87C7-A68B7A97176A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FB747DC-487B-425F-87C7-A68B7A97176A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0321CFD9-D914-4D9F-AAFC-BC2C04C3A363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0321CFD9-D914-4D9F-AAFC-BC2C04C3A363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0321CFD9-D914-4D9F-AAFC-BC2C04C3A363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0321CFD9-D914-4D9F-AAFC-BC2C04C3A363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F4DE4C-DE96-4F39-A4A2-111F1737282F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F4DE4C-DE96-4F39-A4A2-111F1737282F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F4DE4C-DE96-4F39-A4A2-111F1737282F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F4DE4C-DE96-4F39-A4A2-111F1737282F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3FB747DC-487B-425F-87C7-A68B7A97176A}</ProjectGuid>
+    <ProjectGuid>{0321CFD9-D914-4D9F-AAFC-BC2C04C3A363}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BackTracking</RootNamespace>
-    <AssemblyName>BackTracking</AssemblyName>
+    <RootNamespace>LinkedList</RootNamespace>
+    <AssemblyName>LinkedList</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problem1.cs" />
-    <Compile Include="Problem2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BackTracking\LinkedListLib\LinkedListLib.csproj">
+      <Project>{f6f4de4c-de96-4f39-a4a2-111f1737282f}</Project>
+      <Name>LinkedListLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
