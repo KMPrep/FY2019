@@ -10,8 +10,7 @@ namespace LinkedListLib
      /// Single Linked List Implementation
      /// </summary>
      /// <typeparam name="T"></typeparam>
-    public class SingleLinkedList<T>
-    {
+    public class SingleLinkedList<T> : ISingleLinkedList<T> {
         /// <summary>
         /// Head pointer of the Linked List
         /// </summary>
